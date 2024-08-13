@@ -53,11 +53,11 @@ a{
     text-decoration: none;
    color: black;
 }
-button:hover{
+button:hover, button:active{
 background-color: aqua;
 font-size: 22px;
 transform: scale(1.1);
-transition: 2s;
+transition: 1s;
 }
 
     
