@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
     
 }
 .logo  {
@@ -27,10 +27,10 @@ img{
     width: 100%;
 }
 p{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 500;
     font-family: "Pacifico", cursive;
-   color:#02c39a;
+   color:#051923;
 }
 .btnsection{
     display: flex;
@@ -51,7 +51,7 @@ button{
 }
 a{
     text-decoration: none;
-   color: black;
+    color:#051923;
 }
 button:hover, button:active{
 background-color: aqua;
@@ -59,6 +59,38 @@ font-size: 22px;
 transform: scale(1.1);
 transition: 1s;
 }
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    
+    
+ 
+}
+.link .follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.followlink{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+   
+    
+    
+}
+.followlink{
+    font-size: 30px;
+    color:#051923;
+}
+
 
     
     @media (max-width:306px) {
