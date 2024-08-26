@@ -54,7 +54,7 @@ a{
     color:#051923;
 }
 button:hover, button:active{
-background:linear-gradient(to right bottom, #b5179e, #560bad);
+background:linear-gradient(to right bottom, #1790b5, #e9e6df);
 font-size: 21px;
 font-weight: 600;
 transform: scale(1.1);
