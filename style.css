@@ -16,16 +16,25 @@
     gap: 15px;
     
 }
-.logo  {
-    width: 150px;
-    height: 150px;
-    border-radius: 50PX 20px 50px 20px;
-    background-color:#2a9d8f;
-   
-}
+    .logo  {
+        width: 200px;
+        height: 200 px;
+        border-radius: 50PX 20px 50px 20px;
+        
+       
+    
+    }
 img{
     width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(194, 193, 193, 0.801)
+    
 }
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in    ;
+}
+
 .title_link{
     font-size: 29px;
     font-weight: 200;
