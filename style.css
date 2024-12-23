@@ -123,7 +123,7 @@ transition: all 0.50s linear;
     font-size: 30px;
     color:#051923;
 }
-.followlink i:hover,:active{
+.followlink i:hover,.followlink i:active{
     opacity: .55;
 }
 
