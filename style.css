@@ -86,11 +86,15 @@ a{
    
 }
 button:hover, button:active{
-background:linear-gradient(to right bottom, #2e2c2c8f, #dfe5e9);
-font-size: 21px;
+/* background:linear-gradient(to right bottom, #2e2c2c8f, #dfe5e9); */
+font-size: 22px;
 font-weight: 600;
-transform: scale(0.9);
-transition: all 0.50s linear;
+/* transform: scale(0.9); */
+transition: all 0.20s linear;
+background-color:rgba(75, 75, 75, 0.61);
+
+
+
 }
 .link{
     display: flex;
