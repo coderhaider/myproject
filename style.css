@@ -5,12 +5,12 @@
   box-sizing: border-box;
 }
 body{
-    background-image: url(./images/Coder-Haider-images.jpg);
+    background-image: url(/images/5500150.jpg);
     width: 100%;
     height: auto;
-    backdrop-filter: blur(75px);
+    background-size: COVER;
     background-position: center;
-    
+
 }
 
 .container{
